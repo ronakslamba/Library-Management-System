@@ -907,18 +907,96 @@ void help(ostream& out)
 
 void fillBookDatabase(Library* myLibrary)
 {
-    Book book1("The Stranger", "Albert Camus", "1946", "4.21/5", "9780679720201");
-    Book book2("On the Road", "Jack Kerouac", "1957", "3.80/5", "9780679720534");
+    Book book1("The Stranger", "Albert Camus", "1946", "4.03/5", "9780679720201");
+    Book book2("On the Road", "Jack Kerouac", "1957", "3.61/5", "9780140042597");
+    Book book3("1984", "George Orwell", "1949", "4.18/5", "9780451524935");
+    Book book4("To Kill a Mockingbird", "Harper Lee", "1960", "4.28/5", "9780061120084");
+    Book book5("Moby-Dick", "Herman Melville", "1851", "3.50/5", "9781503280786");
+    Book book6("Pride and Prejudice", "Jane Austen", "1813", "4.26/5", "9781503290563");
+    Book book7("The Great Gatsby", "F. Scott Fitzgerald", "1925", "3.93/5", "9780743273565");
+    Book book8("Brave New World", "Aldous Huxley", "1932", "3.99/5", "9780060850524");
+    Book book9("The Catcher in the Rye", "J.D. Salinger", "1951", "3.81/5", "9780316769488");
+    Book book10("War and Peace", "Leo Tolstoy", "1869", "4.11/5", "9781400079988");
+    Book book11("The Hobbit", "J.R.R. Tolkien", "1937", "4.28/5", "9780547928227");
+    Book book12("The Odyssey", "Homer", "800 BC", "4.13/5", "9780140268867");
+    Book book13("Crime and Punishment", "Fyodor Dostoevsky", "1866", "4.21/5", "9780140449136");
+    Book book14("Les Misérables", "Victor Hugo", "1862", "4.22/5", "9780451419439");
+    Book book15("The Brothers Karamazov", "Fyodor Dostoevsky", "1880", "4.33/5", "9780374528379");
+    Book book16("The Picture of Dorian Gray", "Oscar Wilde", "1890", "4.07/5", "9780486266871");
+    Book book17("Anna Karenina", "Leo Tolstoy", "1877", "4.07/5", "9781400079988");
+    Book book18("Catch-22", "Joseph Heller", "1961", "4.18/5", "9780684833392");
+    Book book19("Fahrenheit 451", "Ray Bradbury", "1953", "3.99/5", "9781451673319");
+    Book book20("The Road", "Cormac McCarthy", "2006", "4.06/5", "9780307387899");
+    Book book21("The Lord of the Rings: The Fellowship of the Ring", "J.R.R. Tolkien", "1954", "4.49/5", "9780544003415");
+    Book book22("The Grapes of Wrath", "John Steinbeck", "1939", "4.28/5", "9780143039433");
+    Book book23("Frankenstein", "Mary Shelley", "1818", "4.07/5", "9780486282116");
+    Book book24("The Bell Jar", "Sylvia Plath", "1963", "4.08/5", "9780060837020");
+    Book book25("Slaughterhouse-Five", "Kurt Vonnegut", "1969", "4.13/5", "9780440180296");
+    Book book26("The Sun Also Rises", "Ernest Hemingway", "1926", "3.84/5", "9780743297332");
+    Book book27("Wuthering Heights", "Emily Brontë", "1847", "4.03/5", "9780141439556");
+    Book book28("Don Quixote", "Miguel de Cervantes", "1605", "3.90/5", "9780060934347");
+    Book book29("The Old Man and the Sea", "Ernest Hemingway", "1952", "3.97/5", "9780684801223");
+    Book book30("One Hundred Years of Solitude", "Gabriel García Márquez", "1967", "4.06/5", "9780060883287");
+    
 
     myLibrary->addBook(book1);
     myLibrary->addBook(book2);
+    myLibrary->addBook(book3);
+    myLibrary->addBook(book4);
+    myLibrary->addBook(book5);
+    myLibrary->addBook(book6);
+    myLibrary->addBook(book7);
+    myLibrary->addBook(book8);
+    myLibrary->addBook(book9);
+    myLibrary->addBook(book10);
+    myLibrary->addBook(book11);
+    myLibrary->addBook(book12);
+    myLibrary->addBook(book13);
+    myLibrary->addBook(book14);
+    myLibrary->addBook(book15);
+    myLibrary->addBook(book16);
+    myLibrary->addBook(book17);
+    myLibrary->addBook(book18);
+    myLibrary->addBook(book19);
+    myLibrary->addBook(book20);
+    myLibrary->addBook(book21);
+    myLibrary->addBook(book22);
+    myLibrary->addBook(book23);
+    myLibrary->addBook(book24);
+    myLibrary->addBook(book25);
+    myLibrary->addBook(book26);
+    myLibrary->addBook(book27);
+    myLibrary->addBook(book28);
+    myLibrary->addBook(book29);
+    myLibrary->addBook(book30);
+    
 }
 
 void fillMemberDatabase(Library* myLibrary)
 {
-    Member member1("Roger", "Waters", "0001", "9788626545");
-    Member member2("Ryan", "Reynolds", "0002", "6035836439");
+    Member member1("Roger", "Waters", "6203", "9788626545");
+    Member member2("Ryan", "Reynolds", "2149", "6035836439");
+    Member member3("John", "Doe", "4382", "4153928567");
+    Member member4("Jane", "Smith", "2394", "3054871290");
+    Member member5("Alice", "Johnson", "1847", "9175638401");
+    Member member6("Bob", "Brown", "9235", "7325983470");
+    Member member7("Charlie", "Davis", "5312", "8182046729");
+    Member member8("Diana", "Miller", "6841", "6467524983");
+    Member member9("Emily", "Wilson", "7259", "3129075634");
+    Member member10("Frank", "Moore", "9273", "7186512390");
+    Member member11("Grace", "Taylor", "5180", "5039827416");
+    Member member12("Henry", "Anderson", "7643", "7079153628");
     
     myLibrary->addMember(member1);
     myLibrary->addMember(member2);
+    myLibrary->addMember(member3);
+    myLibrary->addMember(member4);
+    myLibrary->addMember(member5);
+    myLibrary->addMember(member6);
+    myLibrary->addMember(member7);
+    myLibrary->addMember(member8);
+    myLibrary->addMember(member9);
+    myLibrary->addMember(member10);
+    myLibrary->addMember(member11);
+    myLibrary->addMember(member12);
 }
