@@ -9,9 +9,9 @@
 5. ./library
 
 # About the program:
-1. Reinforces OOP skills with use of multiple classes
-2. Practices use of data structures such as map and vector
-3. Includes proficient input parsing for CLI use
+1. Reinforces OOP skills with use of multiple classes (Book, Member, Library)
+2. Practices use of data structures (such as map and vector)
+3. Includes proficient input validation/parsing for CLI use
 
 # Features:
 1. Browse book collection
